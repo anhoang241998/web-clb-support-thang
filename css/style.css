@@ -1,0 +1,44 @@
+body {
+	background: url("https://github.com/buiminhquang188/versus/blob/master/images/27090.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20rem;
+}
+
+.container-left,
+.container-right {
+	flex-shrink: 1;
+	width: 30rem;
+	height: 18rem;
+}
+
+.container-left img,
+.container-right img {
+	height: 100%;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+body {
+	text-align: center;
+}
+
+.btn {
+	color: white;
+	padding: 1rem 2rem;
+	background-color: lightseagreen;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
